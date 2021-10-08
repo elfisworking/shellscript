@@ -70,3 +70,8 @@ case $num in
 esac
 
 # conditional statement in shell also has "break" and "continue" key word
+echo "using linux command"
+for str in `ls`
+do
+    echo $str
+done

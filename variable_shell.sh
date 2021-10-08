@@ -22,6 +22,8 @@ echo "the process number of the current shell" $$
 echo "The process number of the last background command" $!
 # the exit status of the last command execute
 echo "exit status" $?
+# in linux one command return 0 which indicates run correctly and return 1
+# which indicates run incorrectly
 for TOKEN in $@
 do
     echo $TOKEN
